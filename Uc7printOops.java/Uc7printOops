@@ -1,0 +1,11 @@
+Uc7printOops.java
+public static void main (String [] args) {
+    // Create CharacterPatternMap array
+    CharacterPatternMap [] charMaps = createCharacterPatternMaps ();
+    //Define the message to be displayed 
+    String message = "OOPS";
+    // Print the banner message 
+    printMessage (message, charMaps);
+}
+ 
+}
